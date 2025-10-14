@@ -1,0 +1,60 @@
+# .NET build artifacts
+.config/
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Dotnet publish artifacts
+publish/
+*.db
+
+# Ignore secrets and certificates
+*.crt
+*.csr
+*.key
+*.pfx
+*.pem
+*.srl
+
+# Ignore any certificate folders (optional, if you have a certs/ folder)
+certs/
+*.cer
+
+# Ignore environment files (optional, if you use them)
+.env
+.env.*
+
+# Ignore logs
+*.log
+
+# Ignore test results
+TestResults/
+*.trx
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore Rider files
+.idea/
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Windows Thumbs.db
+Thumbs.db
+
+MyFirstApplication/
