@@ -34,3 +34,5 @@ openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out c
 openssl pkcs12 -export -out client.pfx -inkey client.key -in client.crt -certfile ca.crt -password pass:$PFX_PASSWORD
 
 echo "Todos os certificados e chaves foram gerados com sucesso!"
+
+#curl --cert client.pfx:SuaSenhaForteAqui --cert-type P12 --insecure https://localhost:5001/test -v
